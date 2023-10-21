@@ -19,7 +19,7 @@ if [ "$USE_NGROK" = "yes" ] ; then
 fi
 
 # forge server URL (1.18.1), update as necessary
-DEF_FORGE_INSTALLER="https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.3.2/forge-1.19.2-43.3.2-installer.jar"
+DEF_FORGE_INSTALLER="https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.2.4/forge-1.19.4-45.2.4-installer.jar"
 DEF_VANILLA_SERVER="https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar"
 if [ "$USE_FORGE" = "yes" ] ; then
   read -p "Custom Forge installer (leave blank for default: $DEF_FORGE_INSTALLER)? " FORGE_SERVER
